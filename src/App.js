@@ -1,11 +1,16 @@
 import {Notifyer} from "./Notifyer.js"
 import {Timer} from "./Timer.js"
 import {Emitter} from "./Emitter.js"
+import {Message} from "./Message.js"
+
+console.log(Message.newMessage())
+
+
 
 
 const notify = Notifyer.notify({
     title:"Hora do post",
-    body:"Crie algum conteúdo para ajudar a comunidade",
+    body:Message.newMessage(),
 })
 
 
