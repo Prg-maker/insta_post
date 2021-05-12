@@ -1,0 +1,23 @@
+{
+  "name": "post_insta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prg-maker/insta_post.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prg-maker/insta_post/issues"
+  },
+  "homepage": "https://github.com/Prg-maker/insta_post#readme",
+  "devDependencies": {
+    "electron": "^12.0.7"
+  }
+}
